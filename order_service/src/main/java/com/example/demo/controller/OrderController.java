@@ -34,7 +34,7 @@ public class OrderController {
 	@ResponseStatus(HttpStatus.CREATED)
 	@CircuitBreaker(name = "inventory", fallbackMethod = "fallBackMethod")
 	@TimeLimiter(name = "inventory", fallbackMethod = "fallBackMethod")
-	@Retry(name = "inventory")
+	@Retry(name = "inventory", fallbackMethod = "fallBackMethod")
 	public CompletableFuture<ResponseEntity<Order>> placeOrder(@RequestBody OrderRequest orderRequest) {
 		return CompletableFuture.supplyAsync(() -> ResponseEntity.status(HttpStatus.CREATED).body(orderService.placeOrder(orderRequest)));
 	}

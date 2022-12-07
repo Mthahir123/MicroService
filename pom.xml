@@ -17,7 +17,7 @@
 		<module>discovery_server</module>
 		<module>api-gateway</module>
 	</modules>
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -29,7 +29,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	
+
 	<repositories>
 		<repository>
 			<id>netflix-candidates</id>
