@@ -6,6 +6,7 @@ C:\Users\Mobile Programming\Documents\MS\microservices-new\order_service\src\mai
 C:\Users\Mobile Programming\Documents\MS\microservices-new\order_service\src\main\java\com\example\demo\dto\OrderLineItemsDto.java
 C:\Users\Mobile Programming\Documents\MS\microservices-new\order_service\src\main\java\com\example\demo\OrderServiceApplication.java
 C:\Users\Mobile Programming\Documents\MS\microservices-new\order_service\src\main\java\com\example\demo\service\OrderServiceImpl.java
+C:\Users\Mobile Programming\Documents\MS\microservices-new\order_service\src\main\java\com\example\demo\event\OrderPlacedEvent.java
 C:\Users\Mobile Programming\Documents\MS\microservices-new\order_service\src\main\java\com\example\demo\dto\InventoryResponse.java
 C:\Users\Mobile Programming\Documents\MS\microservices-new\order_service\src\main\java\com\example\demo\model\Order.java
 C:\Users\Mobile Programming\Documents\MS\microservices-new\order_service\src\main\java\com\example\demo\model\OrderLineItems.java
