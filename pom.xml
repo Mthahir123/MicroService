@@ -11,12 +11,12 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>product_service</module>
-		<module>order_service</module>
-		<module>inventory_service</module>
-		<module>discovery_server</module>
+		<module>product-service</module>
+		<module>order-service</module>
+		<module>inventory-service</module>
+		<module>discovery-server</module>
 		<module>api-gateway</module>
-		<module>notification_service</module>
+		<module>notification-service</module>
 	</modules>
 
 	<dependencyManagement>
@@ -70,6 +70,27 @@
 				<configuration>
 					<source>16</source>
 					<target>16</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.2.1</version>
+				<configuration>
+					<from>
+						<image>eclipse-temurin:17-jre</image>
+						<auth>
+							<username>mthagir1997</username>
+							<password>mdthahir123</password>
+						</auth>
+					</from>
+					<to>
+						<image>registry.hub.docker.com/mthagir1997/${project.artifactId}</image>
+						<auth>
+							<username>mthagir1997</username>
+							<password>mdthahir123</password>
+						</auth>
+					</to>
 				</configuration>
 			</plugin>
 		</plugins>
